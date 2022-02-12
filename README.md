@@ -17,7 +17,7 @@ a mensagem "Provavelmente irá chover. Por favor leve um guarda-chuva".
 
 Agora se nenhum dos dois critérios acima forem atendidos o sistema irá apresentar a mensagem "Hoje você não precisa levar um guarda-chuva".
 
-Além da informação da necessidade ou não de se levar um guarda-chuva o sistema também irá apresentar as seguintes informações complementares:
+Além da informação da necessidade ou não de se levar um guarda-chuva, o sistema também irá apresentar as seguintes informações complementares:
 - Nome da cidade / Sigla do país
 - Temperatura em Celsius
 - Umidade do ar
