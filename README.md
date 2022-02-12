@@ -8,12 +8,12 @@ Para chamada ao serviço foi necessário cria uma conta para obter uma chave ("A
 O parâmetro necessário para execução do código é o nome da cidade. Caso seja digitado uma cidade inexistente será apresentado uma mensagem de erro.
 
 Caso a API retorne que já está chovendo, o que podemos identificar através do atributo "weather.main" (mais informações em https://openweathermap.org/weather-conditions)
-quando o mesmo apresenta algum dos seguintes valores "Thunderstorm", "Drizzle", "Rain", o sistema irá apresentar a mensagem "Está chovendo por favor leve um guarda-chuva".
+quando o mesmo apresenta algum dos seguintes valores "Thunderstorm", "Drizzle", "Rain", o sistema irá apresentar a mensagem "Está chovendo. Por favor leve um guarda-chuva".
 
 Caso o valor do atributo "weather.main" seja diferente dos acima informados, será utilizado outro critério que leva em consideração a umidade e pressão atmosférica.
 
 Se a umidade estiver alta (acima de 90%) e a pressão estivar baixa (abaixo de 1015 hPa) há grande probabilidade de chuva e o sistema irá apresentar
-a mensagem "Provavelmente irá chover, por favor leve um guarda-chuva".
+a mensagem "Provavelmente irá chover. Por favor leve um guarda-chuva".
 
 Agora se nenhum dos dois critérios acima forem atendidos o sistema irá apresentar a mensagem "Hoje você não precisa levar um guarda-chuva".
 
