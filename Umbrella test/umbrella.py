@@ -29,11 +29,11 @@ def clima():
     weather = getWeather(city)
     if weather:
         location_lbl['text'] = '{}, {}'.format(weather[0], weather[1])
-        temp_lbl['text'] = '{:.2f}°C'.format(weather[2])
-        humidity_lbl['text'] = 'Umidade do ar {}%'.format(weather[3])
-        pressure_lbl['text'] = 'Pressão atmosferica {} hPa'.format(weather[5])
-        weather_lbl['text'] = weather[4]
-        if weather_lbl['text'] == 'Rain' or weather_lbl['text'] == 'Thunderstorm':
+        temp_lbl['text'] = 'Temperatura: {:.2f}°C'.format(weather[2])
+        humidity_lbl['text'] = 'Umidade do ar: {}%'.format(weather[3])
+        pressure_lbl['text'] = 'Pressão atmosferica: {} hPa'.format(weather[5])
+        weather_lbl['text'] = 'Condição do tempo: {}'.format(weather[4])
+        if weather_lbl['text'] == 'Rain' or weather_lbl['text'] == 'Thunderstorm' or weather_lbl['text'] == 'Drizzle':
             umbrella_lbl['text'] = 'Está chovendo por favor leve um guarda chuva'
         elif weather[3] >= 90 and weather[5] < 1015: #A probabilidade de chuva é feita com base em alta umidade e baixa pressão atmosferica
             umbrella_lbl['text'] = 'Provavelmente irá chover, por favor leve um guarda chuva'
