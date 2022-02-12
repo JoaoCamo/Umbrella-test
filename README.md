@@ -1,4 +1,4 @@
-Código desenvolvido em python para alertar sofre o clima e se ha necessidade de levar guarda chuva para a cidade informada.
+Código desenvolvido em python que com base no clima alerta se irá haver necessidade de levar guarda chuva para a cidade informada.
 
 O nome do arquivo é "umbrela.py" e deve ser executado com um compilador python, o código possui integração com o serviço "Current weather data" 
 da API publica "OpenWeatherMap" (mais informações em https://openweathermap.org).
