@@ -14,3 +14,12 @@ Caso o valor do atributo "weather.main" seja diferente dos acima informados, ser
 
 Se a umidade estiver alta (acima de 90%) e a pressão estivar baixa (abaixo de 1015 hPa) há grande probabilidadede chuva e o sistema irá apresentar
 a mensagem "Provavelmente irá chover, por favor leve um guarda chuva".
+
+Agora se nenhum dos dois critérios acima forem atendidos o sistema irá apresentar a mensagem "Hoje você não precisa levar um guarda chuva".
+
+Além da informação da necessidade ou não de se levar um guarda-chuva o sistema também irá apresentar as seguintes informações complementares:
+- Nome da cidade / Sigla do país
+- Temperatura em Celsius
+- Umidade do ar
+- Pressão atmosférica
+- Condição do tempo
