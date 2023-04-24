@@ -4,7 +4,7 @@ from tkinter import messagebox
 from tkinter import font
 import requests
 
-api = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=598068f18515daf478c319d1e0c59cac'
+api = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=(Your API Key)'
 
 #Função para consultar a API com base na cidade que o usuário digitar
 def getWeather(city):
